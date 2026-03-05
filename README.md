@@ -2,21 +2,19 @@
 
 ## 📌 Sobre o Projeto
 
-Neste trabalho assumo o papel de **Gestor de TI** da organização fictícia **ServiceOrder Tech**, uma empresa especializada no desenvolvimento de sistemas de gestão empresarial.
+Neste trabalho assumo o papel de **Gestor de TI** da organização fictícia **ServiceOrder Tech**, uma empresa especializada no desenvolvimento de **sistemas de gestão empresarial**.
 
-O objetivo desta **Política de Segurança da Informação (PSI)** é estabelecer normas e diretrizes que protejam os ativos da organização contra:
+O objetivo desta **Política de Segurança da Informação (PSI)** é estabelecer **regras, diretrizes e controles** para proteger os ativos da organização contra ameaças que possam comprometer a segurança das informações.
 
-* ameaças **físicas**
-* ameaças **tecnológicas**
-* ameaças **humanas**
+A política busca garantir a proteção das informações com base na **Tríade da Segurança da Informação**:
 
-A política é fundamentada na **Tríade da Segurança da Informação**:
+| Pilar | Descrição |
+|------|-----------|
+| 🔒 **Confidencialidade** | Apenas pessoas autorizadas podem acessar as informações |
+| 🧾 **Integridade** | As informações não podem ser alteradas indevidamente |
+| ⚡ **Disponibilidade** | Sistemas e dados devem estar acessíveis quando necessários |
 
-| Pilar                | Descrição                                                   |
-| -------------------- | ----------------------------------------------------------- |
-| 🔒 Confidencialidade | Apenas pessoas autorizadas podem acessar as informações     |
-| 🧾 Integridade       | As informações não podem ser alteradas indevidamente        |
-| ⚡ Disponibilidade    | Sistemas e dados devem estar disponíveis quando necessários |
+Essa política se aplica a **todos os colaboradores, gestores e usuários dos sistemas da organização**.
 
 ---
 
@@ -26,94 +24,103 @@ A política é fundamentada na **Tríade da Segurança da Informação**:
 * [2. Locais Críticos Protegidos](#2-locais-críticos-protegidos)
 * [3. Governança de Segurança da Informação](#3-governança-de-segurança-da-informação)
 * [4. Análise de Riscos](#4-análise-de-riscos)
-* [5. Controles de Segurança](#5-controles-de-segurança)
-* [6. Plano de Continuidade e Contingência](#6-plano-de-continuidade-e-contingência)
-* [7. Regras de Conduta para Colaboradores](#7-regras-de-conduta-para-colaboradores)
-* [8. Consequências pelo Descumprimento](#8-consequências-pelo-descumprimento)
-* [9. Objetivo da Implantação da Política](#9-objetivo-da-implantação-da-política)
-* [10. Vídeo de Apresentação](#10-vídeo-de-apresentação)
+* [5. Regras e Aplicabilidade da Política](#5-regras-e-aplicabilidade-da-política)
+* [6. Consequências pelo Descumprimento](#6-consequências-pelo-descumprimento)
 
 ---
 
 # 🏢 1. Tipo de Organização
 
-A organização escolhida para esta atividade é a **ServiceOrder Tech**, uma empresa de tecnologia especializada no desenvolvimento de soluções de software para gestão empresarial.
+A organização escolhida para esta atividade é a **ServiceOrder Tech**, uma empresa fictícia do setor de **tecnologia da informação**, especializada no desenvolvimento de **sistemas corporativos**.
 
-### Principais serviços
+## Principais serviços oferecidos
 
-* Sistemas de **ordens de serviço**
-* Sistemas de **gestão empresarial**
-* Sistemas **financeiros**
-* Aplicações **web corporativas**
+A empresa desenvolve soluções como:
 
-### Infraestrutura utilizada
+- sistemas de **ordens de serviço**
+- sistemas de **gestão empresarial**
+- sistemas **financeiros**
+- aplicações **web corporativas**
 
-* servidores de aplicação
-* banco de dados corporativo
-* infraestrutura de rede
-* repositórios de código
+## Infraestrutura utilizada
+
+Para fornecer seus serviços, a empresa utiliza:
+
+- servidores de aplicação
+- banco de dados corporativo
+- infraestrutura de rede interna
+- repositórios de código e sistemas de versionamento
+
+Esses recursos são considerados **ativos críticos da organização** e devem ser protegidos adequadamente.
 
 ---
 
 # 📍 2. Locais Críticos Protegidos
 
+Determinados ambientes da organização possuem **informações e recursos sensíveis**, sendo classificados como **locais críticos**.
+
 ## 🖥 Data Center / Servidores
 
 Ambiente responsável por hospedar:
 
-* banco de dados
-* sistemas da empresa
-* aplicações web
+- banco de dados da empresa
+- sistemas corporativos
+- aplicações web
 
-Medidas de segurança:
+### Medidas de segurança
 
-* controle de acesso físico
-* monitoramento por câmeras
-* nobreak
-* controle de temperatura
+- controle de acesso físico restrito
+- monitoramento por câmeras
+- nobreak para proteção contra falhas elétricas
+- controle de temperatura e ventilação
 
 ---
 
 ## 🏢 Escritório Administrativo
 
-Contém equipamentos e documentos sensíveis.
+Local onde trabalham os colaboradores e onde estão presentes computadores e documentos importantes.
 
-Principais riscos:
+### Principais riscos
 
-* roubo de equipamentos
-* acesso indevido
-* vazamento de informações
+- roubo de equipamentos
+- acesso não autorizado
+- vazamento de informações
 
-Medidas de proteção:
+### Medidas de proteção
 
-* controle de acesso
-* bloqueio automático de computadores
-* armazenamento seguro de documentos
+- controle de acesso ao ambiente
+- bloqueio automático de computadores
+- armazenamento seguro de documentos
 
 ---
 
 ## 🌐 Infraestrutura de Rede
 
-Inclui:
+A rede corporativa conecta todos os sistemas e equipamentos da empresa.
 
-* roteadores
-* switches
-* firewall
-* VPN corporativa
+Ela inclui:
+
+- roteadores
+- switches
+- firewall corporativo
+- acesso remoto via VPN
+
+Essa infraestrutura deve ser protegida para evitar **invasões e acessos indevidos**.
 
 ---
 
 # 👥 3. Governança de Segurança da Informação
 
-A segurança da informação é responsabilidade de toda a organização.
+A segurança da informação é responsabilidade **de todos dentro da organização**, porém algumas funções possuem responsabilidades específicas.
 
 ## 👨‍💻 Gestor de TI
 
 Responsável por:
 
-* definir políticas de segurança
-* monitorar infraestrutura
-* responder a incidentes de segurança
+- definir políticas de segurança
+- monitorar a infraestrutura tecnológica
+- responder a incidentes de segurança
+- garantir a aplicação da política de segurança
 
 ---
 
@@ -121,25 +128,27 @@ Responsável por:
 
 Responsável por:
 
-* gerenciamento de servidores
-* execução de backups
-* aplicação de atualizações
+- gerenciamento de servidores
+- execução de backups
+- aplicação de atualizações de segurança
+- monitoramento de sistemas
 
 ---
 
 ## 👨‍💼 Colaboradores
 
-Devem:
+Todos os colaboradores devem:
 
-* seguir as políticas de segurança
-* proteger suas credenciais
-* comunicar incidentes
+- seguir as normas da política de segurança
+- proteger suas credenciais de acesso
+- não compartilhar senhas
+- comunicar incidentes de segurança
 
 ---
 
 # ⚠️ 4. Análise de Riscos
 
-A análise de riscos identifica possíveis ameaças que podem comprometer os ativos da organização.
+A análise de riscos identifica **ameaças que podem comprometer a segurança das informações da organização**.
 
 ## Distribuição dos Tipos de Riscos
 
@@ -149,6 +158,11 @@ pie title Distribuição de Riscos de Segurança
     "Ameaças Humanas" : 35
     "Ameaças Físicas" : 20
 ```
+Esses riscos podem ser classificados em três categorias principais:
+
+- **ameaças físicas**
+- **ameaças tecnológicas**
+- **ameaças humanas**
 
 ---
 
@@ -156,15 +170,15 @@ pie title Distribuição de Riscos de Segurança
 
 Exemplos:
 
-* desastres naturais
-* falhas elétricas
-* incêndios
+- incêndios
+- falhas elétricas
+- desastres naturais
 
-Mitigação:
+### Medidas de mitigação
 
-* nobreak
-* backup em nuvem
-* plano de recuperação de desastres
+- uso de nobreak
+- backup em nuvem
+- plano de recuperação de desastres
 
 ---
 
@@ -172,17 +186,17 @@ Mitigação:
 
 Exemplos:
 
-* ataques hackers
-* malware
-* ransomware
-* indisponibilidade de sistemas
+- ataques de hackers
+- malware
+- ransomware
+- falhas em sistemas
 
-Mitigação:
+### Medidas de mitigação
 
-* firewall
-* antivírus
-* atualizações de segurança
-* monitoramento de rede
+- firewall corporativo
+- antivírus
+- atualizações de segurança
+- monitoramento de rede
 
 ---
 
@@ -190,114 +204,58 @@ Mitigação:
 
 Exemplos:
 
-* erro humano
-* negligência
-* vazamento de dados
+- erro humano
+- negligência
+- vazamento de dados
+- uso indevido de sistemas
 
-Mitigação:
+### Medidas de mitigação
 
-* treinamento de segurança
-* controle de permissões
-* auditoria de acessos
-
----
-
-# 🔐 5. Controles de Segurança
-
-## Controle de Acesso
-
-* login individual
-* senha forte
-* níveis de permissão por função
+- treinamento de segurança
+- controle de permissões de acesso
+- auditoria de acessos
 
 ---
 
-## Criptografia
+# 📋 5. Regras e Aplicabilidade da Política
 
-* comunicação segura via **HTTPS**
-* criptografia de dados sensíveis
-* uso de **VPN**
+Esta política é **obrigatória para todos os colaboradores e usuários dos sistemas da empresa**.
 
----
+Todos devem seguir as seguintes regras:
 
-## Backup
+- não compartilhar senhas
+- utilizar apenas sistemas autorizados
+- bloquear o computador ao se ausentar
+- não instalar softwares não autorizados
+- respeitar as políticas de acesso aos sistemas
+- reportar qualquer incidente de segurança
 
-* backups **diários**
-* armazenamento seguro
-* testes de restauração
-
----
-
-# 🚑 6. Plano de Continuidade e Contingência
-
-Em caso de falha crítica:
-
-1. ativação do plano de contingência
-2. restauração do backup mais recente
-3. redirecionamento para servidor de backup
-4. comunicação com equipe
-
-Objetivo: **restaurar serviços rapidamente e minimizar impactos**.
+O descumprimento dessas regras compromete a **segurança da organização** e pode gerar penalidades.
 
 ---
 
-# 📋 7. Regras de Conduta para Colaboradores
+# ⚖️ 6. Consequências pelo Descumprimento
 
-Todos os colaboradores devem:
+O não cumprimento das normas estabelecidas nesta política poderá resultar em medidas disciplinares, como:
 
-* não compartilhar senhas
-* bloquear o computador ao se ausentar
-* não instalar softwares não autorizados
-* utilizar apenas sistemas aprovados
-* reportar incidentes de segurança
+- advertência
+- suspensão
+- desligamento do colaborador
+- responsabilização legal, dependendo da gravidade do incidente
 
----
-
-# ⚖️ 8. Consequências pelo Descumprimento
-
-O descumprimento das normas poderá resultar em:
-
-* advertência
-* suspensão
-* demissão
-* responsabilização legal
+Essas medidas visam garantir o **cumprimento das normas de segurança e a proteção dos ativos da organização**.
 
 ---
 
-# 🎯 9. Objetivo da Implantação da Política
+# 🎯 Conclusão
 
-A política busca:
+A implementação de uma **Política de Segurança da Informação** é fundamental para proteger os ativos digitais e físicos da organização.
 
-* proteger dados da empresa
-* reduzir riscos operacionais
-* garantir continuidade dos serviços
-* fortalecer cultura de segurança
+Ao aplicar regras claras e boas práticas de segurança, a empresa consegue:
 
----
+- reduzir riscos
+- proteger informações sensíveis
+- garantir continuidade dos serviços
+- fortalecer a cultura de segurança da informação
 
-# 🎥 10. Vídeo de Apresentação
-
-Para a demonstração do trabalho foi gravado um vídeo de até **5 minutos**, apresentando:
-
-* organização escolhida
-* análise de riscos
-* controles de segurança
-* justificativa da política
-
-📎 Link do vídeo (YouTube não listado)
-
-```
-COLE_AQUI_O_LINK_DO_VIDEO
-```
-
----
-
-# ✅ Conclusão
-
-A implementação da **Política de Segurança da Informação** fortalece a proteção dos ativos da organização e reduz vulnerabilidades.
-
-A política é baseada nos três pilares fundamentais da segurança:
-
-* **Confidencialidade**
-* **Integridade**
-* **Disponibilidade**
+Assim, a organização assegura que seus sistemas e dados estejam protegidos contra ameaças **físicas, tecnológicas e humanas**.
